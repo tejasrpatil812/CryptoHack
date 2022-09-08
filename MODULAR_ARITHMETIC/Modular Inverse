@@ -1,0 +1,7 @@
+from Crypto.Util.number import inverse
+
+def modInverse(a, m):
+   return pow(a,m-2,m)
+ 
+print(modInverse(3,13))
+print(inverse(3,13))
